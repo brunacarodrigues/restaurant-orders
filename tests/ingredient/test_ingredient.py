@@ -6,7 +6,7 @@ def test_ingredient():
     ingredient2 = Ingredient('queijo mussarela')
     ingredient3 = Ingredient('bacon')
 
-    assert hash(ingredient1) == hash(ingredient2)  
+    assert hash(ingredient1) == hash(ingredient2)
     assert hash(ingredient1) != hash(ingredient3)
     assert ingredient1 == ingredient2
     assert ingredient1 != ingredient3
