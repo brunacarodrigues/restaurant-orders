@@ -28,10 +28,10 @@ class MenuBuilder:
         menu = []
 
         for dish in self.menu_data.dishes:
+            available = self.inventory.check_recipe_availability(dish.recipe)
             if (restriction is None
                     or restriction not
-                    in dish.get_restrictions()):
-
+                    in dish.get_restrictions()) and available:
                 dishes = {
                     'dish_name': dish.name,
                     'price': dish.price,
