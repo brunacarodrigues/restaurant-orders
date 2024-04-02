@@ -1,10 +1,2 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Projeto do módulo de Ciência da Computação.
+Implementação de testes unitários em Python para classes e métodos em diferentes módulos de uma aplicação, cobrindo aspectos como criação de mocks, asserções, e testes de funcionalidades e integrações. Além disso, envolvem a implementação de lógica de negócios para mapeamento de dados, geração de cardápios com base em dados fornecidos, controle de inventário e otimização de recursos. Métodos para verificar a disponibilidade de ingredientes e a implementação de lógica para gerar cardápios apenas com pratos possíveis de serem feitos com os ingredientes disponíveis.
